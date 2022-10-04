@@ -1,0 +1,408 @@
+
+header{
+    background-color: darkgreen;
+    color: white;
+}
+header p{
+    color: white;
+     font-size: 150%;
+     text-align: left;
+padding-top: 25px;
+padding-left: 10px;
+
+ }
+
+form div{
+    padding-bottom: 10px;
+
+}
+#filter_head{
+    font-size: 120%;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    color: darkgreen;
+}
+ h1{
+     font-size: 200%;
+     text-align: center;
+     color: darkgreen;
+ }
+h2{
+    font-size: 100%;
+}
+h3{
+    font-size: 100%;
+}
+ .hidden {
+    display: none;
+  }
+ .borders{
+     /* border: 1px ridge lightgray; */
+     /* border-radius: 10%; */
+     float: left;
+     padding: 20px;
+
+
+     margin: 10px;
+     margin-bottom: 10px;
+     width: 25%;
+     height: 25%;
+ }
+
+
+
+
+
+
+ .borders p {
+     border: 2px solid green ;
+     border-radius: 10%;
+ }
+
+
+
+
+ form p{
+     color: darkred;
+
+ }
+
+ .plant_images{
+     width: 300px;
+     height: 300px;
+     display: block;
+     margin: 0 auto;
+     align-items: center;
+     margin-right: auto;
+     margin-left: auto;
+
+ }
+
+ .plant_images img{
+    width: 90%;
+    height: 90%;
+    border-radius: 10%;
+    display: block;
+    margin: 0 auto;
+    align-items: center;
+    margin-right: auto;
+    margin-left: auto;
+
+ }
+
+ .no-plants p{
+     color: darkred;
+     text-align: center;
+     font-size: 300%;
+ }
+
+ .filter-catal{
+    display: flex;
+    /* background-color: darkseagreen; */
+    /* flex-direction: row; */
+ }
+ aside{
+ display: flex;
+ align-items: flex-start;
+ width: 30%;
+ padding-left: 25px;
+ flex-direction: column;
+ /* position: sticky;
+ top: 0; */
+
+}
+
+aside form{
+    position: sticky;
+ top: 0;
+}
+
+
+.admin-catalog{
+    width: 80%;
+    padding-left: 200px;
+    display: flex;
+    flex-direction: column;
+
+
+}
+
+.admin-tags{
+    width: 100%;
+}
+
+.display-row{
+    display: flex;
+    margin: 0 auto;
+    flex-direction: row;
+
+
+}
+
+.tag-row{
+    display: block;
+    margin: 3px;
+
+
+}
+
+.tag-row p{
+    /* border: 2px solid darkgreen; */
+    background-color: rgb(90, 170, 90);
+    padding: 5px;
+    font-size: 80%;
+
+    /* border-radius: 25%; */
+}
+
+/* .admin-borders{
+    border-bottom: 2px dotted lightgray;
+} */
+
+
+.log-in{
+    /* width: 400%;
+    height: 400%; */
+    /* font-size: 200%; */
+    display: block;
+    margin: 0 auto;
+    align-items: center;
+    margin-left: 600px;
+
+
+}
+
+.admin-buttons{
+    /* display: inline-block; */
+    display: flex;
+    flex-direction: row;
+justify-content: space-around;
+border-bottom: 2px dotted lightgray;
+
+}
+
+/* #submit-delete{
+padding: 600px;
+    color: green;
+} */
+
+.admin-buttons input{
+    color: darkgreen;
+    /* height: 20px;
+    width: 50px; */
+}
+
+
+
+
+.user-view h1{
+font-family: cursive;
+color: darkgreen;
+text-shadow: 2px 2px darkseagreen;
+font-size: 300%;
+text-align: center;
+}
+
+
+
+nav{
+    opacity: 0.8;
+    height: 4em;
+
+  }
+
+
+
+  nav a {
+    color: white;
+    text-decoration: none;
+    padding: 2px;
+    font-size: 120%;
+
+  }
+
+  nav li {
+    display: inline-block;
+    float: right;
+    list-style-type: none;
+    padding: 10px;
+    margin-top: 1em;
+    margin-bottom: 1em;
+
+  }
+
+  button{
+      padding: 7px;
+      margin-left: 30px;;
+
+
+  }
+
+  button a{
+      color: darkgreen;
+      text-decoration: none;
+  }
+
+  .form-cat{
+      display: flex;
+      flex-direction: row-reverse;
+  }
+
+  .form{
+      width: 40%;
+  }
+
+  .log-in-page h2{
+    font-size: 200%;
+    text-align: center;
+    color:darkgreen;
+  }
+
+  .log-in-page p{
+  margin-left: 200px;
+  margin-right: 200px;
+font-size: 120%;
+color:black;
+padding: 5px;
+
+  }
+
+  /* .log-in-page strong{
+color: darkgreen;
+  } */
+
+  .user-view h2{
+    font-size: 185%;
+    color: green;
+    padding-left: 40px;
+
+}
+
+.user-view p{
+    font-size: 125%;
+    padding-left: 30px;
+
+}
+
+.edit-styling h2{
+    color: darkgreen;
+    font-size: 150%;
+    text-align: center;
+}
+
+.edit-styling form{
+    margin-left: 250px;
+}
+/* .edit-styling form div{
+    display: inline-block;
+} */
+@media (max-width: 700px){
+    .form-cat{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .borders{
+
+        width: 45%;
+        height: 45%;
+        display: flex;
+        flex-direction: column;
+        margin-right: 75px;
+        margin-left: 50px;
+
+    }
+
+    .plant_images{
+        width: 400px;
+        height: 400px;
+        /* display: block;
+        margin: 0 auto;
+        align-items: center;
+        margin-right: auto;
+        margin-left: auto; */
+
+    }
+
+    .plant_images img{
+       width: 90%;
+       height: 90%;
+       border-radius: 10%;
+       display: block;
+       margin: 0 auto;
+       align-items: center;
+       margin-right: auto;
+       margin-left: auto;
+
+    }
+
+    .form div{
+        display: inline-block;
+        padding: 5px;
+
+    }
+    .form form{
+        margin: 0 auto;
+        align-items: center;
+
+        margin-right: auto;
+        text-align: center;
+
+        position: sticky;
+        top:0;
+    }
+    .form{
+        position: sticky;
+        top:0;
+        width:100%;
+        background-color: white;
+    }
+    .log-in{
+        margin-left: 200px;
+
+    }
+    .log-in-page p{
+        font-size: 100%;
+        margin: auto;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    .user-view h2{
+        text-align: center;
+    }
+    .user-view p{
+      font-size:110%;
+    }
+    .details-page img{
+width: 90%;
+height: 90%;
+display: block;
+margin: 0 auto;
+align-items: center;
+margin-right: auto;
+margin-left: auto;
+    }
+    }
+
+    @media print{
+       aside{
+           display: none;
+           width: 0%;
+       }
+
+       .admin-catalog{
+           width: 100%;
+       }
+       form input{
+           display: none;
+       }
+
+       button{
+           display: none;
+       }
+       form{
+           display: none;
+       }
+
+
+
+}
